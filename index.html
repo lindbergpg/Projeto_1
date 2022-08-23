@@ -17,18 +17,20 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#about">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
-            <img class="store-front" src="./img/loja.jpg" alt="Fachada da loja Game Shop">
+            <a href="#">
+                <img class="store-front" src="./img/loja.jpg" alt="Fachada da loja Game Shop">
+            </a>
             <div>
                 <h2>Sobre a loja</h2>
                 <p>
@@ -51,5 +53,55 @@
             </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contactmethods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <input type="tel" placeholder="Seu telefone">
+                        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="sociallinks">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="./img/instagram.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./img/facebook.png" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nossa pagina no Youtube">
+                                <img src="./img/youtube.png" alt="Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua JavaScript n 125, Vila HTML - São Paulo - SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Game Shop - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
