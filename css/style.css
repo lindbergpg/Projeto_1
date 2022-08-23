@@ -136,7 +136,7 @@ form button {
 }
 
 form button:hover {
-    background-color: rgb(88, 88, 196);
+    background-color: rgb(82, 82, 185);
 }
 
 input:focus, textarea:focus {
